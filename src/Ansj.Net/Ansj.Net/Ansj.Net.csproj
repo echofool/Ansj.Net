@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9AB48D2E-80AE-4311-80ED-250FEABB88A4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ansj.Net</RootNamespace>
+    <AssemblyName>Ansj.Net</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Lucene.Net, Version=3.0.3.0, Culture=neutral, PublicKeyToken=85089178b9ac3181, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lucene.Net.3.0.3\lib\NET40\Lucene.Net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LinkedList.cs" />
+    <Compile Include="Lucene3\AnsjAnalysis.cs" />
+    <Compile Include="Lucene3\AnsjIndexAnalysis.cs" />
+    <Compile Include="Lucene\Util\AnsjTokenizer.cs" />
+    <Compile Include="Lucene\Util\PorterStemmer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="App\Crf\Model.cs" />
+    <Compile Include="App\Crf\Model\CRFModel.cs" />
+    <Compile Include="App\Crf\Model\WapitiCRFModel.cs" />
+    <Compile Include="App\Crf\Pojo\Element.cs" />
+    <Compile Include="App\Crf\Pojo\Feature.cs" />
+    <Compile Include="App\Crf\Pojo\TempFeature.cs" />
+    <Compile Include="App\Crf\Pojo\Template.cs" />
+    <Compile Include="App\Crf\SplitWord.cs" />
+    <Compile Include="App\Keyword\Keyword.cs" />
+    <Compile Include="App\Keyword\KeyWordComputer.cs" />
+    <Compile Include="App\Summary\Pojo\Summary.cs" />
+    <Compile Include="App\Summary\SummaryComputer.cs" />
+    <Compile Include="App\Summary\TagContent.cs" />
+    <Compile Include="Dic\DicReader.cs" />
+    <Compile Include="Dic\LearnTool.cs" />
+    <Compile Include="Domain\AnsjItem.cs" />
+    <Compile Include="Domain\Nature.cs" />
+    <Compile Include="Domain\NewWord.cs" />
+    <Compile Include="Domain\NumNatureAttr.cs" />
+    <Compile Include="Domain\PersonNatureAttr.cs" />
+    <Compile Include="Domain\Term.cs" />
+    <Compile Include="Domain\TermNature.cs" />
+    <Compile Include="Domain\TermNatures.cs" />
+    <Compile Include="Library\Company\CompanyAttrLibrary.cs" />
+    <Compile Include="Library\DatDictionary.cs" />
+    <Compile Include="Library\Name\PersonAttrLibrary.cs" />
+    <Compile Include="Library\NatureLibrary.cs" />
+    <Compile Include="Library\NgramLibrary.cs" />
+    <Compile Include="Library\UserDefineLibrary.cs" />
+    <Compile Include="Recognition\AsianPersonRecognition.cs" />
+    <Compile Include="Recognition\ForeignPersonRecognition.cs" />
+    <Compile Include="Recognition\NatureRecognition.cs" />
+    <Compile Include="Recognition\NewWordRecognition.cs" />
+    <Compile Include="Recognition\NumRecognition.cs" />
+    <Compile Include="Recognition\RuleRecognition.cs" />
+    <Compile Include="Recognition\UserDefineRecognition.cs" />
+    <Compile Include="SplitWord\Analysis.cs" />
+    <Compile Include="SplitWord\Analysis\BaseAnalysis.cs" />
+    <Compile Include="SplitWord\Analysis\FastIndexAnalysis.cs" />
+    <Compile Include="SplitWord\Analysis\IndexAnalysis.cs" />
+    <Compile Include="SplitWord\Analysis\NlpAnalysis.cs" />
+    <Compile Include="SplitWord\Analysis\ToAnalysis.cs" />
+    <Compile Include="SplitWord\Analysis\UserDefineAnalysis.cs" />
+    <Compile Include="SplitWord\IGetWords.cs" />
+    <Compile Include="SplitWord\Impl\GetWordsImpl.cs" />
+    <Compile Include="Util\AnsjReader.cs" />
+    <Compile Include="Util\FilterModifWord.cs" />
+    <Compile Include="Util\Graph.cs" />
+    <Compile Include="Util\MathUtil.cs" />
+    <Compile Include="Util\MatrixUtil.cs" />
+    <Compile Include="Util\MyStaticValue.cs" />
+    <Compile Include="Util\NameFix.cs" />
+    <Compile Include="Util\TermUtil.cs" />
+    <Compile Include="Util\WordAlert.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Resources\library\ambiguity.dic">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\library\default.dic">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Resources\bigramdict.dic">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\company\company.data">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\core.dic">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\crf\crf.model">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\englishLibrary.dic">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\jianFan.dic">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\nature\nature.map">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\nature\nature.table">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\newWord\newWordFilter.dic">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\newWord\new_word_freq.dic">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\numberLibrary.dic">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\person\asian_name_freq.data">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\person\person.dic">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Library\ambiguity.dic">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Library\default.dic">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\nlpcn.net\Nlpcn.Net.csproj">
+      <Project>{9B81654A-AC73-4F0A-A0F6-D8661241C5B0}</Project>
+      <Name>Nlpcn.Net</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App\Keyword\package-info.java" />
+    <Content Include="App\Web\AnsjServer.java" />
+    <Content Include="App\Web\AnsjServlet.java" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

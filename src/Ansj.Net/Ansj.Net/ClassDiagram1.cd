@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="org.ansj.app.crf.model.CRFModel">
+    <Position X="2.75" Y="14.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App\Crf\Model\CRFModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.ansj.app.crf.model.WapitiCRFModel">
+    <Position X="7" Y="14.5" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAACAAAAAAAAAAAAAAAAQQACEAABCAAAAAAAAAA=</HashCode>
+      <FileName>App\Crf\Model\WapitiCRFModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.ansj.app.crf.Model">
+    <Position X="5.5" Y="9.5" Width="4.25" />
+    <NestedTypes>
+      <Enum Name="org.ansj.app.crf.Model.MODEL_TYPE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>App\Crf\Model.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAICwAAAhAAAAAAAAACABAAEAAAAAAAAAAgIE=</HashCode>
+      <FileName>App\Crf\Model.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.ansj.app.crf.pojo.Element">
+    <Position X="39.25" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACIAABwAAAEkAACCAAAAAAAEEAAAAAAAAAAAABA=</HashCode>
+      <FileName>App\Crf\Pojo\Element.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.ansj.app.crf.pojo.Feature">
+    <Position X="44" Y="17" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAEAAAAAAAAAAAAACAAAAgAAAAEAAA=</HashCode>
+      <FileName>App\Crf\Pojo\Feature.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.ansj.app.crf.pojo.TempFeature">
+    <Position X="39.75" Y="6.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>App\Crf\Pojo\TempFeature.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.ansj.app.crf.pojo.Template">
+    <Position X="44" Y="3.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAQAEAAAAAAAAAAAIAAABAAEAAAAAoAA=</HashCode>
+      <FileName>App\Crf\Pojo\Template.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.App.Crf.SplitWord">
+    <Position X="35" Y="4.75" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAECAEBAAAAAAQAAAAAAIAAAAAAAAgAAAAIAAA=</HashCode>
+      <FileName>App\Crf\SplitWord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.App.Keyword.Keyword" BaseTypeListCollapsed="true">
+    <Position X="47.75" Y="16.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAwEgAAAAAQAACAAAIAAAAAAAQAAAAA=</HashCode>
+      <FileName>App\Keyword\Keyword.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ansj.Net.App.Keyword.KeyWordComputer">
+    <Position X="30.25" Y="14" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAABAAQA=</HashCode>
+      <FileName>App\Keyword\KeyWordComputer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.App.Summary.Pojo.Summary">
+    <Position X="53.75" Y="17.25" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAACAAAAAAAAAgAAAAACAAAAAAAA=</HashCode>
+      <FileName>App\Summary\Pojo\Summary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.App.Summary.SummaryComputer">
+    <Position X="30.25" Y="8.5" Width="5.25" />
+    <NestedTypes>
+      <Class Name="Ansj.Net.App.Summary.SummaryComputer.Sentence" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>App\Summary\SummaryComputer.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAIAAAACBAUEAAABAAAAAAAAAAAAAAAIAAAI=</HashCode>
+      <FileName>App\Summary\SummaryComputer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.App.Summary.TagContent">
+    <Position X="59" Y="17.25" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAIAAAAAA=</HashCode>
+      <FileName>App\Summary\TagContent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.Dic.DicReader">
+    <Position X="35" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dic\DicReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.Dic.LearnTool">
+    <Position X="22.75" Y="26.25" Width="7" />
+    <TypeIdentifier>
+      <HashCode>gACIAAAAAAACCAAAAAECAAUAA0AACAAgAAAAgAAgAAA=</HashCode>
+      <FileName>Dic\LearnTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.Domain.AnsjItem">
+    <Position X="41.75" Y="12.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAIAAAEAAAAAAEAgABAAAAAAEAAAAAICCAAAAAA=</HashCode>
+      <FileName>Domain\AnsjItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.Domain.Nature">
+    <Position X="25.25" Y="23" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAgAgEAIRAAAAAAAABAAA=</HashCode>
+      <FileName>Domain\Nature.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.Domain.NewWord">
+    <Position X="45.5" Y="29.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAQAAAgEEAAAAAQQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\NewWord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.Domain.NumNatureAttr">
+    <Position X="31.5" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEQAIAAAAAAAAACAAAAAACAAAAIAAAAAAAA=</HashCode>
+      <FileName>Domain\NumNatureAttr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.Domain.PersonNatureAttr">
+    <Position X="57" Y="27.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAQAAAQEAAAAAASAAAAAEAAQAIIAAABAAAA=</HashCode>
+      <FileName>Domain\PersonNatureAttr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.Domain.Term" BaseTypeListCollapsed="true">
+    <Position X="45.25" Y="22" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAQIAQEAAQwUADAoCAYUABAoAAIgBAAAAAAIAIA=</HashCode>
+      <FileName>Domain\Term.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ansj.Net.Domain.TermNature">
+    <Position X="30.25" Y="27.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAIAAAEAAAAAAAAgAgEEICAABAAAAIAAAA=</HashCode>
+      <FileName>Domain\TermNature.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.Domain.TermNatures">
+    <Position X="54.25" Y="22.25" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAIQQAAAACQQgAAAAAAACAAQAAABEABAIAIACAIAAAA=</HashCode>
+      <FileName>Domain\TermNatures.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.Library.Company.CompanyAttrLibrary">
+    <Position X="45" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Library\Company\CompanyAttrLibrary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.Library.DatDictionary">
+    <Position X="36.25" Y="13.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAEIIAAAEAAAAAAAAAAAAAQCAACAAAAAAIAAAA=</HashCode>
+      <FileName>Library\DatDictionary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.Library.NatureLibrary">
+    <Position X="60.25" Y="27" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIIAAAAAAAgAQAAAAAAAAAAAAECBAAAAIA=</HashCode>
+      <FileName>Library\NatureLibrary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.Library.NgramLibrary">
+    <Position X="27.75" Y="2" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Library\NgramLibrary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.Library.UserDefineLibrary">
+    <Position X="50" Y="22" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAkAIIAAAAAgACCAAAAAAQAAAAAAhAAAAAAAQABQBAA=</HashCode>
+      <FileName>Library\UserDefineLibrary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.Library.Name.PersonAttrLibrary">
+    <Position X="37.75" Y="10.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>CAoAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Library\Name\PersonAttrLibrary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.LinkedList&lt;T&gt;" BaseTypeListCollapsed="true">
+    <Position X="38.25" Y="22" Width="6.75" />
+    <TypeIdentifier>
+      <HashCode>AEJAEBAACEQEERAICAAANAQgIBAACgAEQAACICBQIBI=</HashCode>
+      <FileName>LinkedList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ansj.Net.Lucene.Util.AnsjTokenizer">
+    <Position X="53.5" Y="13.75" Width="6.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAQAAAAACAAAgAEAIAAAIAAAAAAAAAQAAA=</HashCode>
+      <FileName>Lucene\Util\AnsjTokenizer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.Lucene.Util.PorterStemmer">
+    <Position X="34" Y="22" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAICBAAACEAADkAEAABAJIIAAABgAAEAAQgATAIAJQA=</HashCode>
+      <FileName>Lucene\Util\PorterStemmer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.Lucene3.AnsjAnalysis">
+    <Position X="47.5" Y="13.75" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAQAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lucene3\AnsjAnalysis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.Lucene3.AnsjIndexAnalysis">
+    <Position X="36" Y="17.75" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAQAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lucene3\AnsjIndexAnalysis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.Recognition.AsianPersonRecognition">
+    <Position X="42.25" Y="9.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAQAAAAAAIQIAAAAAQAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Recognition\AsianPersonRecognition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.Recognition.ForeignPersonRecognition">
+    <Position X="46.25" Y="8.25" Width="3.25" />
+    <NestedTypes>
+      <Class Name="Ansj.Net.Recognition.ForeignPersonRecognition.NameChar" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Recognition\ForeignPersonRecognition.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAGARAIQAAAABIAAEAAACAEAAEAAAAAAAAA=</HashCode>
+      <FileName>Recognition\ForeignPersonRecognition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.Recognition.NatureRecognition">
+    <Position X="50.25" Y="4" Width="4.75" />
+    <NestedTypes>
+      <Class Name="Ansj.Net.Recognition.NatureRecognition.NatureTerm" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Recognition\NatureRecognition.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAQAAAQAAIAAAAACAAAAAAAIAAAAAgAAAQAQAA=</HashCode>
+      <FileName>Recognition\NatureRecognition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.Recognition.NewWordRecognition">
+    <Position X="56" Y="3.75" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAQAAAAFgIAAAAEAIAAAgAAAAAAAAAABCEAAAA=</HashCode>
+      <FileName>Recognition\NewWordRecognition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.Recognition.NumRecognition">
+    <Position X="31.5" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Recognition\NumRecognition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.Recognition.UserDefineRecognition">
+    <Position X="50" Y="8.25" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAIAQAAAAFAIAAAQAAIAAAAoAAAIAAAAABAEAAAA=</HashCode>
+      <FileName>Recognition\UserDefineRecognition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.SplitWord.Analysis.BaseAnalysis">
+    <Position X="3.75" Y="5.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>SplitWord\Analysis\BaseAnalysis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.SplitWord.Analysis.FastIndexAnalysis">
+    <Position X="7.5" Y="5.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>SplitWord\Analysis\FastIndexAnalysis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.SplitWord.Analysis.IndexAnalysis">
+    <Position X="11.25" Y="5.75" Width="4.75" />
+    <NestedTypes>
+      <Class Name="Ansj.Net.SplitWord.Analysis.IndexAnalysis.IndexAnalysisMerger" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SplitWord\Analysis\IndexAnalysis.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>SplitWord\Analysis\IndexAnalysis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.SplitWord.Analysis.NlpAnalysis">
+    <Position X="16.75" Y="5.75" Width="5.75" />
+    <NestedTypes>
+      <Class Name="Ansj.Net.SplitWord.Analysis.NlpAnalysis.NlpAnalysisMerger" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SplitWord\Analysis\NlpAnalysis.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAQAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>SplitWord\Analysis\NlpAnalysis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.SplitWord.Analysis.ToAnalysis">
+    <Position X="23.25" Y="5.75" Width="4.5" />
+    <NestedTypes>
+      <Class Name="Ansj.Net.SplitWord.Analysis.ToAnalysis.ToAnalysisMerger" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SplitWord\Analysis\ToAnalysis.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>SplitWord\Analysis\ToAnalysis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.SplitWord.Analysis.UserDefineAnalysis">
+    <Position X="28.5" Y="5.75" Width="5" />
+    <NestedTypes>
+      <Class Name="Ansj.Net.SplitWord.Analysis.UserDefineAnalysis.UserDefineAnalysisMerger" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SplitWord\Analysis\UserDefineAnalysis.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>SplitWord\Analysis\UserDefineAnalysis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.SplitWord.AbstractAnalysis">
+    <Position X="16.75" Y="0.5" Width="3.75" />
+    <NestedTypes>
+      <Class Name="Ansj.Net.SplitWord.AbstractAnalysis.Merger" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SplitWord\Analysis.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AoAAAAAQAAAAABQEAAAAAAAAABAABAAABEAABAAIIAg=</HashCode>
+      <FileName>SplitWord\Analysis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.SplitWord.Impl.GetWordsImpl" BaseTypeListCollapsed="true">
+    <Position X="61" Y="3" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>CAKADAAAABAAhEAAAAAAAAAAAIAAAAQABAAIACECAAA=</HashCode>
+      <FileName>SplitWord\Impl\GetWordsImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ansj.Net.Util.AnsjReader">
+    <Position X="26.5" Y="14" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAFAAIAAACAAAACAACAAAAAAgIAAEQBAgAAQAACBACA=</HashCode>
+      <FileName>Util\AnsjReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.Util.FilterModifWord">
+    <Position X="50.5" Y="0.75" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAgAAAAAAAAAAJAABAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Util\FilterModifWord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.Util.Graph">
+    <Position X="30.25" Y="22" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AgYACQAAQAAABGAAAAASAgAAAAEAAQAAAFAkAgEAAAI=</HashCode>
+      <FileName>Util\Graph.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.Util.MathUtil">
+    <Position X="56" Y="0.75" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAEAAAAAQAAAAAEAAAAAAAAAAQAAAAAAgAAAAAQ=</HashCode>
+      <FileName>Util\MathUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.Util.MatrixUtil">
+    <Position X="61" Y="0.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Util\MatrixUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.Util.MyStaticValue">
+    <Position X="50.25" Y="26.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQAAAAAAgAgQAQAAAAQIAoBAgACABAEEkAAQACAQA=</HashCode>
+      <FileName>Util\MyStaticValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.Util.NameFix">
+    <Position X="28.25" Y="0.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\NameFix.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.Util.TermUtil">
+    <Position X="55.25" Y="8.25" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAIAAgAAgAAAAAABAAACAAAAAAAAAAAAAABAE=</HashCode>
+      <FileName>Util\TermUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ansj.Net.Util.WordAlert">
+    <Position X="61.25" Y="10.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>gAABAgAACQAEAEAAgAAAQAQAAAAAACAAAAAIAAAAAAA=</HashCode>
+      <FileName>Util\WordAlert.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Ansj.Net.SplitWord.IGetWords">
+    <Position X="60.75" Y="25.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AACABAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAEAAAA=</HashCode>
+      <FileName>SplitWord\IGetWords.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
