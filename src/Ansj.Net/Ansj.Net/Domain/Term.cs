@@ -241,6 +241,13 @@ namespace Ansj.Net.Domain
             return _nature.natureStr;
         }
 
+        /// <summary>
+        /// 返回表示当前 <see cref="T:Ansj.Net.Domain.Term"/> 的 <see cref="T:System.String"/>。
+        /// </summary>
+        /// <returns>
+        /// <see cref="T:System.String"/>，表示当前的 <see cref="T:Ansj.Net.Domain.Term"/>。
+        /// </returns>
+        /// <filterpriority>2</filterpriority>
         public override string ToString()
         {
             if ("null".Equals(_nature.natureStr))
